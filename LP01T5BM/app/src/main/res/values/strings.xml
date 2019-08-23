@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">2do E.l: Nombre y Apellidos</string>
+    <string name="personal">El personal que ha seleccionado es:</string>
+    <string name="nombres">Nombres:</string>
+    <string name="apellido">Apellidos:</string>
+    <string name="sexo">Sexo:</string>
+    <string name="docIdent">Doc Identidad:</string>
+    <string name="nroDocumento">NroDocumento:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="email">Email:</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MiPrimerApp</string>
+    <string-array name="listaSexo">
+        <item>Seleccione el Sexo</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Big Heart</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="tvRegistro">No tienes cuenta? Regístrate</string>
+    <string name="btRegistrese">Crear cuenta</string>
+    <string name="tvGenero">Género</string>
+    <string name="tvRaza">Raza</string>
+    <string name="tvTamaño">Tamaño</string>
+    <string name="tvColor">Color</string>
+    <string name="tvFecha">Fecha</string>
+    <string name="tvEstado">Estado</string>
+    <string name="tvDireccion">Dirección</string>
+    <string name="tvDescripcion">Descripción</string>
+</resources>

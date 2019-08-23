@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">T5CNSemana2_2</string>
+
+    <string name="strdestino">Seleccione destino</string>
+    <string name="strlinea">Seleccione linea aerea</string>
+    <string name="strlan">LAN</string>
+    <string name="stravianca">AVIANCA</string>
+    <string name="strtaca">TACA</string>
+    <string name="strnombre">Ingrese pasajero</string>
+    <string name="strdesc">Descuento 10%</string>
+    <string name="strigv">IGV 18%</string>
+    <string name="strreserva">RESERVAR BOLETO</string>
+    <string-array name="arraydestinos">
+        <item>Tumbes</item>
+        <item>Cuzco</item>
+        <item>Ancash</item>
+        <item>Arequipa</item>
+    </string-array>
+</resources>
+
+

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">T5BMSemana2</string>
+
+    <string name="strdestino">Ciudad de Destino</string>
+    <string name="strlinea">Linea Aerea</string>
+    <string name="strlan">LAN</string>
+    <string name="stravianca">AVIANCA</string>
+    <string name="strchosica">CHOSICANO FLY</string>
+    <string name="strpasajero">Nombre de Pasajero</string>
+    <string name="strdescu">Descuento 10%</string>
+    <string name="strigv">IGV 18%</string>
+    <string name="straceptar">RESERVA DE BOLETO</string>
+    <string name="strprecio">Precio del viaje</string>
+    <string name="strpreciototal">Precio Final</string>
+    <string name="strregresar">REGRESAR</string>
+    <string-array name="strciudades">
+        <item>Tumbes</item>
+        <item>Cuzco</item>
+        <item>Ancash</item>
+        <item>Arequipa</item>
+    </string-array>
+</resources>

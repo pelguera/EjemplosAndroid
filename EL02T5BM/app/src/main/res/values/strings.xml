@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EL02T5BM</string>
+    <string name="Titulo">Colegio "El buen Aprendiz"</string>
+    <string name="btnListar">Listar Alumnos</string>
+
+    <string name="etNombre">Nombre :</string>
+    <string name="etApellido">Apellido :</string>
+    <string name="etGrado">Grado :</string>
+    <string name="etNivel">Nivel :</string>
+</resources>

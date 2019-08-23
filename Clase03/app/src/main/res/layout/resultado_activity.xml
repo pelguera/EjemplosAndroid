@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTituloResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/titulo_principal"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNombresResul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/strNombres"
+        app:layout_constraintBottom_toBottomOf="@+id/tvResulNombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvResulNombre" />
+
+    <TextView
+        android:id="@+id/tvDireccionResul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/strDireccion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombresResul" />
+
+    <TextView
+        android:id="@+id/tvDistritoResul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/strDistrito"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDireccionResul" />
+
+    <TextView
+        android:id="@+id/tvAutoResul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/strSelecAuto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDistritoResul" />
+
+    <TextView
+        android:id="@+id/tvDsctoResul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/strDscto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAutoResul" />
+
+    <TextView
+        android:id="@+id/tvTotalPreciotAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="21dp"
+        android:text="@string/strPrecioAuto"
+        app:layout_constraintBottom_toTopOf="@+id/tvTotalDscto"
+        app:layout_constraintStart_toStartOf="@+id/tvTotalDscto" />
+
+    <TextView
+        android:id="@+id/tvTotalDscto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:text="@string/strTotalDscto"
+        app:layout_constraintStart_toEndOf="@+id/tvDsctoResul"
+        app:layout_constraintTop_toTopOf="@+id/tvResulDscto" />
+
+    <TextView
+        android:id="@+id/tvTotalIGV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/strTotalIgv"
+        app:layout_constraintStart_toStartOf="@+id/tvTotalDscto"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalDscto" />
+
+    <TextView
+        android:id="@+id/tvSubTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="@string/strSubtTotal"
+        app:layout_constraintBottom_toTopOf="@+id/tvTotal"
+        app:layout_constraintStart_toStartOf="@+id/tvTotalIGV" />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:text="@string/strTotal"
+        app:layout_constraintBottom_toBottomOf="@+id/tvResulTotal"
+        app:layout_constraintStart_toStartOf="@+id/tvSubTotal"
+        app:layout_constraintTop_toTopOf="@+id/tvResulTotal" />
+
+    <TextView
+        android:id="@+id/tvResulNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="107dp"
+        android:text="-"
+        app:layout_constraintEnd_toStartOf="@+id/tvResulPrecio"
+        app:layout_constraintStart_toEndOf="@+id/tvDistritoResul"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloResultado" />
+
+    <TextView
+        android:id="@+id/tvResulDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="@+id/tvResulNombre"
+        app:layout_constraintTop_toBottomOf="@+id/tvResulNombre" />
+
+    <TextView
+        android:id="@+id/tvResulDistrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="24dp"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@+id/tvResulDireccion"
+        app:layout_constraintTop_toBottomOf="@+id/tvResulDireccion" />
+
+    <TextView
+        android:id="@+id/tvResulAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="@+id/tvResulDistrito"
+        app:layout_constraintTop_toBottomOf="@+id/tvResulDistrito" />
+
+    <TextView
+        android:id="@+id/tvResulPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="-"
+        app:layout_constraintEnd_toEndOf="@+id/tvResulIGV"
+        app:layout_constraintStart_toStartOf="@+id/tvResulIGV"
+        app:layout_constraintTop_toBottomOf="@+id/tvResulAplicaDscto" />
+
+    <TextView
+        android:id="@+id/tvResulIGV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="@+id/tvResulSubTotal"
+        app:layout_constraintTop_toBottomOf="@+id/tvResulDscto" />
+
+    <TextView
+        android:id="@+id/tvResulSubTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="@+id/tvResulTotal"
+        app:layout_constraintTop_toBottomOf="@+id/tvResulIGV" />
+
+    <TextView
+        android:id="@+id/tvResulTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="123dp"
+        android:text="-"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvTotal"
+        app:layout_constraintTop_toBottomOf="@+id/tvResulSubTotal" />
+
+    <TextView
+        android:id="@+id/tvResulAplicaDscto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="3dp"
+        android:text="-"
+        app:layout_constraintEnd_toStartOf="@+id/tvResulAuto"
+        app:layout_constraintTop_toBottomOf="@+id/tvResulAuto" />
+
+    <TextView
+        android:id="@+id/tvResulDscto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="@+id/tvResulPrecio"
+        app:layout_constraintTop_toBottomOf="@+id/tvResulPrecio" />
+</android.support.constraint.ConstraintLayout>

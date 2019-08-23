@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">T5FMSemana2</string>
+
+    <string name="strusuario">Ingrese Usuario</string>
+    <string name="strpwd">Ingrese Password</string>
+    <string name="straceptar">ACEPTAR</string>
+
+</resources>

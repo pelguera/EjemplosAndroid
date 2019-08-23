@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:context=".RelativeLayout">
+
+    <ImageView
+        android:id="@+id/imgIcono"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/messi" />
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_toEndOf="@id/imgIcono"
+        android:layout_toStartOf="@id/txtFecha"
+        android:text="Lionel Messi"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="24 Junio 1987"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtDetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/txtTitulo"
+        android:layout_below="@id/txtTitulo"
+        android:text="Futbolista Argentino, actualmente milita en el Barcelona de España"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btnLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/txtDetalle"
+        android:layout_below="@id/txtDetalle"
+        android:layout_toEndOf="@id/imgIcono"
+        android:text="Dar Like" />
+
+    <Button
+        android:id="@+id/btnComentar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/btnLike"
+        android:layout_below="@id/txtDetalle"
+        android:text="Comentar" />
+</RelativeLayout>

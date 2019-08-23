@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EjemploCardRecyclerView</string>
+    <string name="hint_titulo_pelicula">Ingrese Título de Película</string>
+    <string name="hint_tipo_pelicula">Ingrese Tipo de Película</string>
+    <string name="hint_duracion_pelicula">Ingrese Duracion de Película</string>
+    <string-array name="lista_peliculas">
+        <item>Seleccione Pelicula</item>
+        <item>Aladdin</item>
+        <item>Bohemia Rhapsody</item>
+        <item>Captain Marvel</item>
+        <item>Dumbo</item>
+        <item>Avengers Endgame</item>
+        <item>Fast and Furious 8</item>
+        <item>Glass</item>
+        <item>Avengers Infinity war</item>
+        <item>El Rey Leon</item>
+        <item>Spiderman Homecoming</item>
+        <item>Spiderman far from home</item>
+        <item>Toy Story 4</item>
+    </string-array>
+</resources>

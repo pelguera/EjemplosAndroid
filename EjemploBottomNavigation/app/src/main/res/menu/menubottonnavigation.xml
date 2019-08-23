@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navNuevo"
+        android:icon="@drawable/ic_nuevo"
+        android:title="Nuevo"
+        android:checked="true"/>
+    <item
+        android:id="@+id/navListado"
+        android:icon="@drawable/ic_listado"
+        android:title="Listado"/>
+    <item
+        android:id="@+id/navBuscar"
+        android:icon="@drawable/ic_buscar"
+        android:title="Buscar"/>
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/txtNombre"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgFoto"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.53" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/txtObservacion"
+            android:layout_gravity="center_horizontal" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/webCiudad"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.42" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/btnRegresar"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>

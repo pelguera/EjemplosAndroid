@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MiFormulario</string>
+    <string name="strTitulo">PEDIDO DE MENU</string>
+    <string name="strCliente">Cliente: </string>
+    <string name="strDistrito">Distrito</string>
+    <string name="strMenu">Seleccione Menu: </string>
+    <string name="strMenuEconomico">Menu Economico - S/.5</string>
+    <string name="strMenuEjecutivo">Menu Ejecutivo - S/.12</string>
+    <string name="strMenuCarta">Menu Carta - S/. 20</string>
+    <string name="strDescuento">¿Aplicar Descuento?</string>
+    <string name="strEnviarInformacion">ENVIAR INFORMACION</string>
+    <string-array name="arrDistritos">
+        <item>Miraflores</item>
+        <item>Breña</item>
+        <item>Callao</item>
+        <item>Independencia</item>
+    </string-array>
+</resources>

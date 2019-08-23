@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GamarraMarwin-EL01</string>
+
+    <string name="strDni">DNI</string>
+    <string name="strCliente">CLIENTE</string>
+    <string name="strDireccion">DIRECCION</string>
+    <string name="strMenu">Menu</string>
+    <string name="strMazda">Mazda</string>
+    <string name="strHonda">Honda</string>
+    <string name="strMitsubishi">Mitsubishi</string>
+    <string name="strdniresultado">dni</string>
+    <string name="strClienteresultado">Cliente</string>
+    <string name="strdireccionresultado">direcion</string>
+    <string name="strautoresultado">auto</string>
+    <string name="strprecioresultadop">precio</string>
+    <string name="strdescuentoresultado">descuento</string>
+    <string name="strtotal">total</string>
+</resources>

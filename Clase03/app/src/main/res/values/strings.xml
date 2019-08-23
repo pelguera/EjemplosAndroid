@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Compra de Autos</string>
+    <string name="titulo_principal">PROFORMA DE AUTOS</string>
+    <string name="strNombres">Nombres: </string>
+    <string name="strDireccion">Dirección: </string>
+    <string name="strDistrito">Distrito: </string>
+    <string name="strSelecAuto">Seleccione Auto: </string>
+    <string name="strAutoMazda">Mazda - Mazda3: $17500</string>
+    <string name="strAutoHonda">Honda - CRV: $24000</string>
+    <string name="strAutoSubaru">Subaru - Impreza: $21000</string>
+    <string name="strDscto">Aplicar Descuento</string>
+    <string name="strIgv">Incluir IGV</string>
+    <string name="strBtnEnviar">ENVIAR INFORMACION</string>
+    <string name="strPrecioAuto">Precio Auto: </string>
+    <string name="strTotalDscto">Descuento: </string>
+    <string name="strTotalIgv">IGV: </string>
+    <string name="strSubtTotal">Sub Total: </string>
+    <string name="strTotal">Total: </string>
+    <string-array name="strDistritos">
+        <item>Miraflores</item>
+        <item>Breña</item>
+        <item>Callao</item>
+        <item>Independencia</item>
+    </string-array>
+</resources>
